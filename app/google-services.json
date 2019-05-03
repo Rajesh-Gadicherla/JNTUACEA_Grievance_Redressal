@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "389966460172",
+    "firebase_url": "https://jntuaceagrievanceredressal.firebaseio.com",
+    "project_id": "jntuaceagrievanceredressal",
+    "storage_bucket": "jntuaceagrievanceredressal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389966460172:android:ed8c2ae57bae4508",
+        "android_client_info": {
+          "package_name": "in.ac.rajesh.jntuacea_grievance_redressal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389966460172-pidm7omhsnjluf4d4999ji2ujeo8fpb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.rajesh.jntuacea_grievance_redressal",
+            "certificate_hash": "2be8949a4fbe0a25391dfa40bb1edc33e74cc9c3"
+          }
+        },
+        {
+          "client_id": "389966460172-70qe0hja5501tbtmf1q2gf1k6evoufl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQk9a-3GxrdqwQw3F_H2-4UA4qbG51GSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389966460172-70qe0hja5501tbtmf1q2gf1k6evoufl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

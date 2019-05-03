@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EnterDetails">
+
+
+    <Spinner
+        android:id="@+id/userlist"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:entries="@array/user_list"
+        android:gravity="center"
+        >
+    </Spinner>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:padding="5dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Id"
+        android:padding="5dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/Gender"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Gender"
+        android:padding="5dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="e-mail"
+        android:padding="5dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:gravity="center"
+        android:background="#97dd6f"
+        android:onClick="grievance"
+        />
+
+
+</LinearLayout>
